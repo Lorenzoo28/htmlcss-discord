@@ -17,6 +17,9 @@ body{
     --dis-primary-light: #f6f6f6;
 }
 
+img{
+    max-width: 100%;
+}
 section {
     padding-left: 1px;
 }
@@ -56,6 +59,9 @@ section {
 .d-flex {
     display: flex;
 }
+.align-items-center{
+    align-items: center;
+}
 
 .ft-logo {
     padding: 3px;
@@ -80,13 +86,15 @@ section {
     background-color: rgb(226, 105, 125);
 }
 
-.w-40 {
-    width: 40%;
+.narrow-column {
+    width: 30%;
+    height: 300px;
     background-color: pink;
 }
 
-.w-60 {
-    width: 60%;
+.wide-column {
+    width: 70%;
+    height: 300px;
     background-color: #3161e0;
 }
 
@@ -132,10 +140,11 @@ header {
         }
     }
 
-    .w-40,
-    .w-60 {
-        height: 300px;
-    }
+.wide-column
+.narrow-column 
+    {
+    height: 300px;
+ }
 
 .debug{
     .jumbotron{
@@ -191,7 +200,7 @@ footer {
 
 .row-container-grey {
     width: 100%;
-    background-color: grey;
+    background-color: white;
     padding: 20px;
 }
 .row-container-darkgray{
