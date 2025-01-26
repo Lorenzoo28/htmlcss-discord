@@ -84,9 +84,9 @@ section {
     justify-content: space-between;
     background-color: rgb(12, 12, 44);
 }
-.w-20 {
+.language {
     width: 20%;
-    background-color: rgb(226, 105, 125);
+    background-color: transparent;
 }
 
 .narrow-column {
@@ -190,7 +190,7 @@ footer {
         width: 68%; 
     }
     .w-80 {
-        background: #3161e0;
+        background: trasparent;
         div{
             flex-grow: 1;
         }
@@ -276,7 +276,7 @@ nav.menu{
     }
 }
 p{
-    line-height: 1.5rem;
+    line-height: 1.75rem;
 }
 
 .wave{
@@ -290,4 +290,33 @@ p{
 .wave-bottom{
     margin-top: -0.5rem;
     rotate: 180deg;
+}
+
+.column{
+    flex-grow: 1;
+}
+h4,h3{
+    color: var(--dis-primary-color);
+}
+ul{
+    list-style: none;
+    li{
+        padding: 0.75rem 0;
+
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        
+    }
+}
+
+.bandiera{
+    max-width: 20%;
+    
+}
+.language,
+.social{
+    color: white;
+    padding: 1rem 0;
 }
