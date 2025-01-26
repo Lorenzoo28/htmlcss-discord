@@ -68,21 +68,21 @@ section {
 
 .ft-logo {
     padding: 3px;
-    background-color: pink;
+    background-color: transparent;
     height: 60%;
     border-width: 2px;
 }
 
 .ft-action {
     padding: 3px;
-    background-color: pink;
+    background-color: transparent;
     height: 60%;
     border-width: 2px;
 }
 
 .justify-content-between{
     justify-content: space-between;
-    background-color: rgb(12, 12, 44);
+    background-color: transparent;
 }
 .language {
     width: 20%;
@@ -249,7 +249,7 @@ nav.menu{
 
 .btn-primary{
     background-color: var(--dis-primary-soft);
-    color: var(--dis-primary-dark);
+    color: var(--dis-primary-light);
     &:hover{
         background-color: var(--dis-primary-dark);
     }
